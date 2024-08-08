@@ -1,0 +1,285 @@
+# do fifo_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/register4_r.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:44 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/register4_r.v 
+# -- Compiling module register4_r
+# 
+# Top level modules:
+# 	register4_r
+# End time: 22:46:44 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/register3_r.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:44 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/register3_r.v 
+# -- Compiling module register3_r
+# 
+# Top level modules:
+# 	register3_r
+# End time: 22:46:44 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/fa_v2.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:44 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/fa_v2.v 
+# -- Compiling module fa_v2
+# 
+# Top level modules:
+# 	fa_v2
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/clb4.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/clb4.v 
+# -- Compiling module clb4
+# 
+# Top level modules:
+# 	clb4
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/cla4.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/cla4.v 
+# -- Compiling module cla4
+# 
+# Top level modules:
+# 	cla4
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/_8_to_1_MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/_8_to_1_MUX.v 
+# -- Compiling module _8_to_1_MUX
+# 
+# Top level modules:
+# 	_8_to_1_MUX
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/_3_to_8_decoder.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/_3_to_8_decoder.v 
+# -- Compiling module _3_to_8_decoder
+# 
+# Top level modules:
+# 	_3_to_8_decoder
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/write_operation.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/write_operation.v 
+# -- Compiling module write_operation
+# 
+# Top level modules:
+# 	write_operation
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/Register_file.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/Register_file.v 
+# -- Compiling module Register_file
+# 
+# Top level modules:
+# 	Register_file
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/register32_r_en.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/register32_r_en.v 
+# -- Compiling module register32_r_en
+# 
+# Top level modules:
+# 	register32_r_en
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/register32_8.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/register32_8.v 
+# -- Compiling module register32_8
+# 
+# Top level modules:
+# 	register32_8
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/read_operation.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/read_operation.v 
+# -- Compiling module read_operation
+# 
+# Top level modules:
+# 	read_operation
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/gates.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/gates.v 
+# -- Compiling module _inv
+# -- Compiling module _nand2
+# -- Compiling module _and2
+# -- Compiling module _or2
+# -- Compiling module _xor2
+# -- Compiling module _and3
+# -- Compiling module _and4
+# -- Compiling module _and5
+# -- Compiling module _or3
+# -- Compiling module _or4
+# -- Compiling module _or5
+# -- Compiling module _inv_4bits
+# -- Compiling module _and2_4bits
+# -- Compiling module _or2_4bits
+# -- Compiling module _xor2_4bits
+# -- Compiling module _xnor2_4bits
+# -- Compiling module _inv_32bits
+# -- Compiling module _and2_32bits
+# -- Compiling module _or2_32bits
+# -- Compiling module _xor2_32bits
+# -- Compiling module _xnor2_32bits
+# 
+# Top level modules:
+# 	_nand2
+# 	_and3
+# 	_and4
+# 	_and5
+# 	_or3
+# 	_or4
+# 	_or5
+# 	_and2_4bits
+# 	_or2_4bits
+# 	_inv_32bits
+# 	_and2_32bits
+# 	_or2_32bits
+# 	_xor2_32bits
+# 	_xnor2_32bits
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/fifo_ns.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/fifo_ns.v 
+# -- Compiling module fifo_ns
+# 
+# Top level modules:
+# 	fifo_ns
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/fifo_cal_addr.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/fifo_cal_addr.v 
+# -- Compiling module fifo_cal_addr
+# 
+# Top level modules:
+# 	fifo_cal_addr
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/fifo_out.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/fifo_out.v 
+# -- Compiling module fifo_out
+# 
+# Top level modules:
+# 	fifo_out
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/fifo.v 
+# -- Compiling module fifo
+# 
+# Top level modules:
+# 	fifo
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/mx2_32bits.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/mx2_32bits.v 
+# -- Compiling module mx2_32bits
+# 
+# Top level modules:
+# 	mx2_32bits
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera_lite/15.1/VL/fifo {C:/altera_lite/15.1/VL/fifo/tb_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:46:45 on Nov 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/altera_lite/15.1/VL/fifo" C:/altera_lite/15.1/VL/fifo/tb_fifo.v 
+# -- Compiling module tb_fifo
+# 
+# Top level modules:
+# 	tb_fifo
+# End time: 22:46:45 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_fifo
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_fifo 
+# Start time: 22:46:45 on Nov 05,2021
+# Loading work.tb_fifo
+# Loading work.fifo
+# Loading work.fifo_ns
+# Loading work.fifo_cal_addr
+# Loading work.cla4
+# Loading work.fa_v2
+# Loading work._xor2
+# Loading work._inv
+# Loading work._and2
+# Loading work._or2
+# Loading work.clb4
+# Loading work._and3
+# Loading work._or3
+# Loading work._and4
+# Loading work._or4
+# Loading work._and5
+# Loading work._or5
+# Loading work.register3_r
+# Loading work.register4_r
+# Loading work.fifo_out
+# Loading work.Register_file
+# Loading work.write_operation
+# Loading work._3_to_8_decoder
+# Loading work.register32_8
+# Loading work.register32_r_en
+# Loading work.read_operation
+# Loading work._8_to_1_MUX
+# Loading work.mx2_32bits
+# ** Warning: (vsim-3015) C:/altera_lite/15.1/VL/fifo/fifo_cal_addr.v(19): [PCDPC] - Port size (4) does not match connection size (3) for port 'a'. The port definition is at: C:/altera_lite/15.1/VL/fifo/cla4.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo/U0_fifo/U1_fifo_cal_addr/U0_cla4 File: C:/altera_lite/15.1/VL/fifo/cla4.v
+# ** Warning: (vsim-3015) C:/altera_lite/15.1/VL/fifo/fifo_cal_addr.v(20): [PCDPC] - Port size (4) does not match connection size (3) for port 'a'. The port definition is at: C:/altera_lite/15.1/VL/fifo/cla4.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo/U0_fifo/U1_fifo_cal_addr/U1_cla4 File: C:/altera_lite/15.1/VL/fifo/cla4.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/altera_lite/15.1/VL/fifo/tb_fifo.v(53)
+#    Time: 260 ns  Iteration: 0  Instance: /tb_fifo
+# Break in Module tb_fifo at C:/altera_lite/15.1/VL/fifo/tb_fifo.v line 53
+# End time: 22:47:36 on Nov 05,2021, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
